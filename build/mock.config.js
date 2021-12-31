@@ -1,8 +1,8 @@
 const fs = require('fs')
 const path = require('path')
 
-const mockBaseURL = 'http://note-server.hunger-valley.com'
-const realBaseURL = 'http://note-server.hunger-valley.com'
+const mockBaseURL = 'https://note-server.hunger-valley.com'
+const realBaseURL = 'https://note-server.hunger-valley.com'
 
 exports.config = function({ isDev = true } = { isDev: true} ) {
   let fileTxt = `
@@ -12,3 +12,4 @@ exports.config = function({ isDev = true } = { isDev: true} ) {
   `
   fs.writeFileSync(path.join(__dirname, '../src/helpers/config-baseURL.js'), fileTxt)
 }
+

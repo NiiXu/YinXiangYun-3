@@ -11,8 +11,13 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "element-theme-chalk": "^2.15.6",
+    "element-themex": "^1.0.3",
+    "element-ui": "^2.15.6",
+    "markdown-it": "^12.3.0",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
