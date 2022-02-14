@@ -21,7 +21,7 @@ const getters = {
 }
 
 const mutations = {
-  setTrashNotes(state, payload ={}) {
+  setTrashNotes(state, payload) {
     state.trashNotes = payload.trashNotes
   },
 
@@ -33,7 +33,7 @@ const mutations = {
     state.trashNotes = state.trashNotes.filter(note => note.id != payload.noteId)
   },
 
-  setCurTrashNote(state, payload) {
+  setCurTrashNote(state, payload = {}) {
     state.curTrashNoteId = payload.curTrashNoteId
   }
 
