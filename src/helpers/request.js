@@ -2,9 +2,11 @@ import axios from 'axios'
 import baseURLConfig from './config-baseURL'
 import { Message } from 'element-ui'
 
+//对所有的post请求修改Content-Type
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
+//访问服务端接口域名
 axios.defaults.baseURL = baseURLConfig.baseURL
-axios.defaults.withCredentials = true
+axios.defaults.withCredentials = true //使用跨域请求
 
 export default function request(url, type = 'GET', data = {}) {
   return new Promise((resolve, reject) => {

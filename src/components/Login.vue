@@ -149,7 +149,7 @@ export default {
 }
 .modal-container {
   width: 800px;
-  height: 500px;
+  height: 450px;
   margin: 0px auto;
   background-color: #fff;
   border-radius: 2px;
@@ -159,7 +159,8 @@ export default {
   display: flex;
   .main {
     flex: 1;
-    background: #36bc64 url(//cloud.hunger-valley.com/17-12-13/38476998.jpg-middle) center center no-repeat;
+    background:	#8FBC8F  center center no-repeat;
+    background-image: url("~@/assets/img/loginF.png");
     background-size: contain;
   }
   .form {
@@ -178,7 +179,7 @@ export default {
       }
     }
     .button {
-      background-color: #2bb964;
+      background-color: #8FBC8F;
       height: 36px;
       line-height: 36px;
       text-align: center;

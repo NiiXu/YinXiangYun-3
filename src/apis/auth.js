@@ -1,10 +1,10 @@
-import request from '@/helpers/request'
+ import request from '@/helpers/request'
 
-const URL = {
+const URL = {   //接口
   REGISTER: '/auth/register',
   LOGIN: '/auth/login',
   LOGOUT: '/auth/logout',
-  GET_INFO: '/auth'
+  GET_INFO: '/auth'   //获取用户信息
 }
 
 export default {
