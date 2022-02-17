@@ -7,7 +7,7 @@
       <router-link to="/trash" title="回收站"><i class="iconfont icon-trash"></i></router-link>
     </div>
     <div class="logout" >
-      <i class="iconfont icon-logout" @click="onLogout"></i>
+      <i class="iconfont icon-logout" title="退出登录" @click="onLogout"></i>
     </div>
   </div>
 </template>
