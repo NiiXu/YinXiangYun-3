@@ -44,7 +44,7 @@ export default {
   data () {
     return {
       statusText: '笔记未改动',
-      isShowPreview: false
+      isShowPreview: true
     }
   },
 
